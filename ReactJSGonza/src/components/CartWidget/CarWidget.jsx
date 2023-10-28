@@ -1,7 +1,7 @@
 const CartWidget = () =>{
     return(
         <button>
-            carrito: 0
+            <img src="../img/carro.png" style={{ width: 50 }}/>0
         </button>
     )
 }

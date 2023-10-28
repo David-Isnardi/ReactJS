@@ -1,26 +1,22 @@
-import classes from "./ItemListContainer.module.css"
 import { useState, useEffect } from "react"
 import { getProducts } from "../asyncMode"
-import ItemList from "../ItemList/ItemList"
+import ItmelList from "../ItemList/ItemList"
 
+const ItemListContainer = ({greeting}) => {
+    const [products, setProducts] = useState ([])
 
-const ItemListContainer = ({greeting}) =>{
-    const [products, setProducts] = useState([])
-
-    useEffect(() =>{
+    useEffect(()=> {
         getProducts()
-        .then(result => {
-            setProducts(result)
+        .then(response => {
+            setProducts(response)
         })
-    }, [])
-
-
+    })
 
     return(
-        <>
-        <h1 className={classes.color}>{greeting}</h1>
-        <ItemList products={products}/>
-        </>
+        <div>
+            <h1>{greeting}</h1>
+            <ItmelList products={products}/>
+        </div>
     )
 }
 
