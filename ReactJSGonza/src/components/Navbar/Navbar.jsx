@@ -1,5 +1,5 @@
 import CartWidget from "../CartWidget/CarWidget"
-
+import { NavLink } from "react-bootstrap";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,14 +9,14 @@ function BasicExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">MotorSports</Navbar.Brand>
+        <Navbar.Brand href="/">MotorSports</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#home">Vehículos</Nav.Link>
-            <Nav.Link href="#home">Repuestos</Nav.Link>
-            <Nav.Link href="#home">Servicios</Nav.Link>
+          <Nav.Link href="/">Inicio</Nav.Link>
+            <Nav.Link href="/category/vehículos">Vehículos</Nav.Link>
+            <Nav.Link href="/category/repuestos">Repuestos</Nav.Link>
+            <Nav.Link href="/category/servicios">Servicios</Nav.Link>
             <CartWidget/>
           </Nav>
         </Navbar.Collapse>
