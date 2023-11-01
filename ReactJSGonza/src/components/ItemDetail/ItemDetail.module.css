@@ -1,0 +1,46 @@
+.padretarjeta{
+margin: 0 auto;
+margin-top: 20px;
+margin-bottom: 20px;
+justify-content: center;
+align-items: center;
+display: flex;
+height: 500px;
+background-color: white;
+width: 1000px;
+box-shadow: 0px 1px 50px 15px;
+border-radius: 10px;
+}
+
+.padretarjeta img{
+margin-right: 500px;
+position: absolute;
+box-shadow: 10px 1px 50px 0px;
+color: rgba(0, 0, 255, 0.526);
+width: 400px;
+height: 300px;
+}
+
+.padretarjeta h1{
+margin-bottom: 400px;
+position: absolute;
+font-size: 50px;
+}
+
+.padretarjeta h2{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    text-decoration: overline;
+}
+
+.detalles{
+position: absolute;
+margin-left: 100px;
+}
+
+.botonescarro{
+margin-left: 600px;
+height: 100px;
+}
+

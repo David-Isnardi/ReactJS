@@ -1,0 +1,33 @@
+.padrecards{
+margin: 14px;
+text-align: center;
+display: inline-block;
+}
+
+.padrecards img{
+width: 350px;
+}
+
+.padrecards h1{
+font-size: 35px;
+}
+
+.padrecards h2{
+    font-size: 15px;
+}
+
+.cards{
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.masdetalle{
+    font-size: 10px;
+    color: white;
+    background-color: rgb(1, 1, 147);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
