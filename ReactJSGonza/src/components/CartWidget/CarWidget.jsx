@@ -1,9 +1,17 @@
+import { useCart } from '../../context/CartContext';
 import classes from './CarWidget.module.css';
+import { useNavigate } from 'react-router-dom';
 
 const CartWidget = () =>{
+
+    const {totalQuantity} = useCart()
+
+    const navigate = useNavigate()
+
     return(
-        <button className= {classes.padrecarro}>
-            <img src="../img/carro.png"/><a className= {classes.numerocarro} >0</a>
+        <button onClick={() => navigate("/cart")} className= {classes.padrecarro}>
+            <img src="../img/carro.png"/>
+            <div className={classes.numerocarro}>{totalQuantity}</div>
         </button>
     )
 }

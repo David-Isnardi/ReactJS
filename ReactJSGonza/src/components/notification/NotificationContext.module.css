@@ -1,0 +1,9 @@
+.texto{
+  background-color: rgba(24, 101, 209, 0.542);
+    position: absolute;
+    margin: 100;
+    right: 50px;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+  }

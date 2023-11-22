@@ -1,0 +1,28 @@
+.titulocarrito{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.558);
+}
+
+.productos{
+    color: black;
+    background-color: rgba(0, 106, 255, 0.374);
+    box-shadow: 10px 10px 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botonescompra{
+    border: none;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, rgba(125,125,125,1) 0%, rgba(59,59,59,1) 63%);    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.botones{
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}

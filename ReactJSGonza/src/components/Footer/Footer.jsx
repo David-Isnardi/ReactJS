@@ -7,8 +7,9 @@ const Footer = () => {
             <div className= {classes.contenedorfooter2}>
 
                 <div className= {classes.footerlinks}>
-                <img src="../img/marcascoches.png" alt="Logo" class="icono"/>
+                <img src="../img/marcascoches.png" alt="Logo"/>
                 </div>
+
 
                 <div className= {classes.footerlinks}>
                     
