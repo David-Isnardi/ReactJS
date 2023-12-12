@@ -1,0 +1,7 @@
+Colocar en la terminal para ver la página:
+
+cd ReactJSGonza
+
+luego
+
+npm run dev
